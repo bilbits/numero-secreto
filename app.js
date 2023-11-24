@@ -1,22 +1,27 @@
-    //mensagem de boas vindas
-    alert ("Olá, seja bem-vimdo(A) ao jogo Número Secreto!");
-    // declarando variáveis
-    let numeroSecreto = 17;
-    console.log(numeroSecreto)
-    let numeroChute;
-    let tentativas = 1;
-    // Bloco de repetições.
-    while (numeroChute!=numeroSecreto){
-        numeroChute = prompt("Escolha um número de 1 a 30");
-        // comparando um chute com o núnero secreto e imprimindo o resultado na tela.
-        if (numeroChute ==numeroSecreto) {
-            alert(`Parabéns! Você ganhou o jogo do Número Secreto! com ${tentativas} tentativas`);
-        }
-        else if (numeroChute >numeroSecreto) {
-            alert(`O número secreto é menor que o ${numeroChute}`);
-        }
-        else {
-            alert(`O número secreto é maior que o ${numeroChute}`);
-        }
-        tentativas++;
+// Mensagem de boas vindas
+alert(`Olá, seja bem-vindo(A) ao jogo Número Secreto!`);
+
+// Declarando variáveis
+let numeroSecreto = parseInt(Math.random() *100+1);
+let numeroChute;
+let tentativas = 1;
+// Bloco de repetição
+while (numeroChute != numeroSecreto) {
+    // Recebendo resposta de um jogador
+    numeroChute = prompt(`Escolha um número de 1 a 100`);
+
+    // Comparando as escolhas do jogador
+    if (numeroChute == numeroSecreto) {
+        break;
+    } else if (numeroChute > numeroSecreto) {
+        alert(`O número ${numeroChute} é maior que o número secreto`);
+    } else {
+        alert(`O número ${numeroChute} é menor que o número secreto`);
     }
+
+    tentativas++;
+}
+
+// Mensagem de vitória fora do loop
+let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
+alert(`Parabéns! Você acertou o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}.`);
