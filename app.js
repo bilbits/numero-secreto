@@ -2,13 +2,14 @@
 alert(`Olá, seja bem-vindo(A) ao jogo Número Secreto!`);
 
 // Declarando variáveis
-let numeroSecreto = parseInt(Math.random() *100+1);
+let numeroMaximo = 500;
+let numeroSecreto = parseInt(Math.random() *numeroMaximo+1);
 let numeroChute;
 let tentativas = 1;
 // Bloco de repetição
 while (numeroChute != numeroSecreto) {
     // Recebendo resposta de um jogador
-    numeroChute = prompt(`Escolha um número de 1 a 100`);
+    numeroChute = prompt(`Escolha um número de 1 a ${numeroMaximo}`);
 
     // Comparando as escolhas do jogador
     if (numeroChute == numeroSecreto) {
