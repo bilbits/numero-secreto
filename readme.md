@@ -3,8 +3,11 @@ Neste tutorial, vou te mostrar como baixar e jogar o jogo do número secreto.
 ## Objetivo
 O objetivo do jogo é você se divertir com seus amigos e família, tentando adivinhar qual foi o número aleatório gerado pelo sistema.
 ## Como baixar.
-Para baixar, clique no link a seguir:
-https://github.com/bilbits/numero-secreto/archive/refs/heads/master.zip
+Para baixar, Copie e cole  um dos  links a seguir no seu navegador:
+Arquivo.zip, recomendado para Windows:
+https://github.com/bilbits/numero-secreto/files/13465628/numero-secreto.zip
+Arquivo.tar.gz, recomendado para Linux:
+https://github.com/bilbits/numero-secreto/archive/refs/tags/NSV1.0.tar.gz
 ## Como jogar.
 1. Baixe o arquivo.
 2. Descompacte o arquivo em alguma pasta de sua preferência, exemplo: Número secreto.
