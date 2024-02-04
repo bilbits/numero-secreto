@@ -1,0 +1,5 @@
+03/02/2024.
+1. Corrigido o bug: ao escolher um número entre 1 e 500, o programa aceitava um número menor do que 1 e maior do que 500. Com essa correção, o jogo apresentará uma mensagem de número inválido.
+2. As frases  do jogo foram atualizadas.
+3. Agora os números aceitos serão entre 1 e 100 em vez de 1 a 500.
+4. A versão do programa mudou de v1.0 para v1.1
