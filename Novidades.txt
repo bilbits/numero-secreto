@@ -1,3 +1,12 @@
+12/02/2024.
+1. Corrigido o bug: Não é mais possível digitar caracteres especiais ou letras no campo numérico.
+2. Agora o jogo possui uma interface gráfica.
+3. As mensagens do jogo foram atualizadas.
+4. O código do jogo foi refeito.
+5. Adicionado o botão "Novo jogo", que permite iniciar uma nova partida.
+6. Agora os números que já foram sortiados, não o serão novamente durante aquela sessão.
+7. Adicionado um leitor de telas integrado ao programa, bastando clicar em allow para ativá-lo. Isso será necessário sempre que iniciar o jogo.
+8. A versão do programa mudou de V1.1 para V2.0
 03/02/2024.
 1. Corrigido o bug: ao escolher um número entre 1 e 500, o programa aceitava um número menor do que 1 e maior do que 500. Com essa correção, o jogo apresentará uma mensagem de número inválido.
 2. As frases  do jogo foram atualizadas.
